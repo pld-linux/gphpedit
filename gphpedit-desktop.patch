@@ -1,0 +1,17 @@
+--- gphpedit-0.9.10/gphpedit.desktop.in~	Sat Jul 17 07:16:38 2004
++++ gphpedit-0.9.10/gphpedit.desktop.in	Sat Jul 17 07:17:16 2004
+@@ -1,9 +1,12 @@
+ [Desktop Entry]
+ Name=gPHPEdit
+ Comment=Edit PHP source files
++Comment[pl]=Edycja plików źródłowych PHP
+ Exec=gphpedit
+ Terminal=false
+ MultipleArgs=true
+ Type=Application
+-Categories=Application;Development;X-Red-Hat-Base;
+-Icon=/usr/share/pixmaps/gphpedit.png
++Categories=GTK;GNOME;Application;Development;X-Red-Hat-Base;
++Icon=gphpedit.png
++Encoding=UTF-8
++# vi: encoding=utf-8
