@@ -11,7 +11,7 @@
  Type=Application
 -Categories=Application;Development;X-Red-Hat-Base;
 -Icon=/usr/share/pixmaps/gphpedit.png
-+Categories=GTK;GNOME;Application;Development;X-Red-Hat-Base;
++Categories=GTK;GNOME;TextEditor;
 +Icon=gphpedit.png
 +Encoding=UTF-8
 +# vi: encoding=utf-8
