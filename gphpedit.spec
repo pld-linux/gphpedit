@@ -10,8 +10,10 @@ Source0:	http://www.gphpedit.org/download/files/%{name}-%{version}.tar.gz
 Patch0:		%{name}-desktop.patch
 URL:		http://www.gphpedit.org/
 BuildRequires:	GtkScintilla2-devel
+BuildRequires:	automake
 BuildRequires:	libgnomeui-devel >= 2.0
 BuildRequires:	libgtkhtml-devel >= 2.0
+BuildRequires:	libstdc++-devel
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
