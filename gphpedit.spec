@@ -1,15 +1,16 @@
 Summary:	A PHP source editor for GNOME 2
 Summary(pl):	Edytor kodu php dla GNOME 2
 Name:		gphpedit
-Version:	0.4.3
+Version:	0.9.10
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.gphpedit.org/releases/%{name}-%{version}.tar.gz
-# Source0-md5:	513caedaff7dac8a697d520c64f56e86
+Source0:	http://www.gphpedit.org/download/files/%{name}-%{version}.tar.gz
+# Source0-md5:	e8cbbf76284583ffbd34b570e4d707b1
 URL:		http://www.gphpedit.org/
 BuildRequires:	GtkScintilla2-devel
 BuildRequires:	libgnomeui-devel >= 2.0
+BuildRequires:	libgtkhtml-devel >= 2.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
