@@ -15,7 +15,6 @@ BuildRequires:	libgnomeui-devel >= 2.0
 BuildRequires:	libgtkhtml-devel >= 2.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	pkgconfig
-BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
