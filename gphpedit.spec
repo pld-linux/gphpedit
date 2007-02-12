@@ -3,7 +3,7 @@
 # - use shared GtkScintilla2 lib
 #
 Summary:	A PHP source editor for GNOME 2
-Summary(pl):	Edytor kodu PHP dla GNOME 2
+Summary(pl.UTF-8):   Edytor kodu PHP dla GNOME 2
 Name:		gphpedit
 Version:	0.9.80
 Release:	1
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 gPHPEdit is a GNOME2 editor dedicated to editing PHP files and other
 supporting files like HTML/CSS.
 
-%description -l pl
-gPHPEdit jest edytorem dla ¶rodowiska GNOME2 przeznaczonym do edycji
-plików PHP i innych wspieranych formatów jak HTML/CSS.
+%description -l pl.UTF-8
+gPHPEdit jest edytorem dla Å›rodowiska GNOME2 przeznaczonym do edycji
+plikÃ³w PHP i innych wspieranych formatÃ³w jak HTML/CSS.
 
 %prep
 %setup -q
