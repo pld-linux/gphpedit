@@ -3,7 +3,7 @@
 # - use shared GtkScintilla2 lib
 #
 Summary:	A PHP source editor for GNOME 2
-Summary(pl.UTF-8):   Edytor kodu PHP dla GNOME 2
+Summary(pl.UTF-8):	Edytor kodu PHP dla GNOME 2
 Name:		gphpedit
 Version:	0.9.80
 Release:	1
