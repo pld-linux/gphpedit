@@ -1,17 +1,16 @@
---- gphpedit-0.9.10/gphpedit.desktop.in~	Sat Jul 17 07:16:38 2004
-+++ gphpedit-0.9.10/gphpedit.desktop.in	Sat Jul 17 07:17:16 2004
-@@ -1,9 +1,12 @@
- [Desktop Entry]
+diff -urN gphpedit-0.9.91.orig/gphpedit.desktop.in gphpedit-0.9.91/gphpedit.desktop.in
+--- gphpedit-0.9.91.orig/gphpedit.desktop.in	2006-05-17 01:40:02.000000000 +0200
++++ gphpedit-0.9.91/gphpedit.desktop.in	2007-04-18 18:30:38.889186184 +0200
+@@ -3,9 +3,11 @@
  Name=gPHPEdit
+ GenericName=PHP/HTML/CSS editor
  Comment=Edit PHP source files
 +Comment[pl]=Edycja plików źródłowych PHP
  Exec=gphpedit
+ Icon=gphpedit.png
  Terminal=false
- MultipleArgs=true
  Type=Application
--Categories=Application;Development;X-Red-Hat-Base;
--Icon=/usr/share/pixmaps/gphpedit.png
+-Categories=Development;IDE;
 +Categories=GTK;GNOME;Development;
-+Icon=gphpedit.png
-+Encoding=UTF-8
+ Version=0.9.4
 +# vi: encoding=utf-8
