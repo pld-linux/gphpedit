@@ -5,12 +5,12 @@
 Summary:	A PHP source editor for GNOME 2
 Summary(pl.UTF-8):	Edytor kodu PHP dla GNOME 2
 Name:		gphpedit
-Version:	0.9.80
+Version:	0.9.91
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://www.gphpedit.org/download/files/%{name}-%{version}.tar.gz
-# Source0-md5:	f05e6354ea64c73dd7bfe020ae15ac71
+# Source0-md5:	eecd29e66b415246408b285f4edcb6a0
 Patch0:		%{name}-desktop.patch
 URL:		http://www.gphpedit.org/
 BuildRequires:	automake
@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog README
+%doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/gphpedit
 %{_pixmapsdir}/gphpedit.png
 %{_desktopdir}/gphpedit.desktop
