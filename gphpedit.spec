@@ -31,7 +31,7 @@ plików PHP i innych wspieranych formatów jak HTML/CSS.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 cp /usr/share/automake/config.sub .
